@@ -8,862 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0abfc36c-e2ac-400d-a5ea-904ef4de23e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/action/back/BaseAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/action/wx/PictureAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/action/wx/SegmentAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/action/wx/VideoAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/bean/Picture.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/bean/Segment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/bean/Video.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/service/PictureService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/service/SegmentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/service/VideoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/service/impl/PictureServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/service/impl/SegmentServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/service/impl/VideoServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/util/ConnectionUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/util/IdUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/util/TimeUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/vo/ResponsePicture.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/vo/ResponseSegment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/vo/ResponseVideo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/conf/dev/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/conf/pro/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/mvc-dispatcher-servlet.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/app.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/icon/iHate.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/icon/iLike.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/icon/iPic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/icon/iPic_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/icon/iText.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/icon/iText_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/icon/iVideo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/icon/iVideo_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pages/index/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pages/index/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pages/index/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pages/index/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pages/logs/logs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pages/logs/logs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pages/logs/logs.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pages/logs/logs.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pages/pics/pics.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pages/pics/pics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pages/pics/pics.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pages/pics/pics.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pages/video/video.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pages/video/video.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pages/video/video.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pages/video/video.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pic/QQ截图20190513121240.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pic/QQ截图20190513121507.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pic/QQ截图20190513121520.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pic/QQ截图20190513135038.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pic/QQ截图20190513135059.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/project.config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/utils/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/com/karat/cn/PictureDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/com/karat/cn/SegmentDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/com/karat/cn/VideoDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/A_addPicture.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/A_addSegment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/A_addVideo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/A_picture.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/A_segment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/A_video.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/andvance-form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/awwwards.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/dripicon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/entypo-icon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/extra-pages.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/icons-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/loader-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/mail.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/maki-icons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/media.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/open-sans.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/profile.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/ribbons/awwwards_honorable_black_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/ribbons/awwwards_honorable_black_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/ribbons/awwwards_honorable_green_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/ribbons/awwwards_honorable_green_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/ribbons/awwwards_honorable_white_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/ribbons/awwwards_honorable_white_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/signin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/social.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/weather-icons.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/BebasNeue-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/BebasNeue-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/BebasNeue-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/BebasNeue-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/dripicons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/dripicons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/dripicons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/dripicons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/entypo.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/entypo.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/entypo.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/maki.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/maki.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/maki.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/weathericons-regular-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/weathericons-regular-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/weathericons-regular-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/weathericons-regular-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/fonts/glyphicons-halflings-regular (1).eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/fonts/open-sans-light.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/ico/minus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/bg10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/bg11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/bg12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/bg13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/bg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/bg3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/bg3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/bg4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/bg5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/bg8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/bg9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/credit/american-express.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/credit/mastercard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/credit/paypal2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/credit/visa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/giftly.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/insta-pic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/insta-pic2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/minus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/people-q-c-350-250-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/people-q-c-350-250-7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/people-q-c-350-250-8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/plus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/search-dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/search-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/small-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/small-bg10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/small-bg11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/small-bg12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/small-bg13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/small-bg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/small-bg5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/small-bg8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/small-bg9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/button/ladda/ladda.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/button/ladda/ladda.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/button/ladda/spin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/button/progressbutton.jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/calendar/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/calendar/calendar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/calendar/css/calendar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/calendar/img/tick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/calendar/jstimezonedetect/jstz.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/calendar/language/de-DE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/calendar/language/el-GR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/calendar/language/es-ES.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/calendar/language/es-MX.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/calendar/language/fr-FR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/calendar/language/it-IT.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/calendar/language/pl-PL.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/calendar/language/pt-BR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/calendar/language/ru-RU.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/calendar/language/sv-SE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/calendar/underscore/underscore-min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/chart/barChart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/chart/chart-float-stacking.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/chart/chart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/chart/jquery.flot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/chart/jquery.flot.resize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/chart/jquery.flot2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/chart/jquery.sparkline.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/chart/lineChart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/chart/polarChart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/chart/radarChart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/chart/realTime.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/clock/date.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/clock/jquery.clock.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/colorPicker/bootstrap-colorpicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/colorPicker/bootstrap-colorpicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/colorPicker/img/bootstrap-colorpicker/alpha.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/colorPicker/img/bootstrap-colorpicker/hue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/colorPicker/img/bootstrap-colorpicker/saturation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/countdown/jquery.countdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/custom/scriptbreaker-multiple-accordion-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/dataTable/css/datatables.responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/dataTable/img/minus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/dataTable/img/plus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/dataTable/lib/jquery.dataTables/css/DT_bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/dataTable/lib/jquery.dataTables/images/sort_asc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/dataTable/lib/jquery.dataTables/images/sort_asc_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/dataTable/lib/jquery.dataTables/images/sort_both.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/dataTable/lib/jquery.dataTables/images/sort_desc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/dataTable/lib/jquery.dataTables/images/sort_desc_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/datepicker/bootstrap-datepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/datepicker/bootstrap-datetimepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/datepicker/clockface.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/datepicker/clockface.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/datepicker/datepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/dropZone/downloads/css/dropzone.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/dropZone/downloads/images/spritemap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/dropZone/downloads/images/spritemap@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/dropZone/lib/dropzone.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/flatvideo/jquery.fitvids.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/footable/css/fonts/footable (1).eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/footable/css/fonts/footable.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/footable/css/fonts/footable.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/footable/css/fonts/footable.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/footable/css/fonts/footable.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/footable/css/footable-demos.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/footable/css/footable.core.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/footable/css/footable.standalone.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/footable/js/footable.filter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/footable/js/footable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/footable/js/footable.paginate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/footable/js/footable.sort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/gage/jquery.easy-pie-chart.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/gage/jquery.easypiechart.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/gage/justgage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/gage/raphael.2.1.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/aero.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/aero@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/all.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/blue@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/flat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/flat@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/green@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/grey@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/orange@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/pink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/pink@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/purple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/purple@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/red@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/yellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/yellow@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/jquery.icheck.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/line/all.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/line/line.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/line/line@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/idealform/css/jquery.idealforms.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/idealform/img/datepicker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/idealform/img/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/idealform/img/radiocheck.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/idealform/img/validation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/idealform/jquery.idealforms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/inputMask/jquery.maskedinput.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/jhere-custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/load.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/map/gmap3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/nano/jquery.nanoscroller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/newsticker/jquery.newsTicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/pace/pace.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/pace/themes/pace-theme-center-simple.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/pnotify/jquery.pnotify.default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/pnotify/jquery.pnotify.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/preloader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/progress-bar/number-pb.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/progress-bar/number-pb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/progress-bar/progress-app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/progress-bar/src/jquery.velocity.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/search/jquery.quicksearch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/skin-select/jquery.cookie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/skin-select/skin-select.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/skin-select/skin-select.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/slidebars/slidebars.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/slidebars/slidebars.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/speed/canvasgauge-coustom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/stackable/responsive-table.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/stackable/stacktable.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/stackable/stacktable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/switch/bootstrap-switch.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/switch/bootstrap-switch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tabs/acc-wizard.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tag/jquery.tagsinput.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tag/jquery.tagsinput.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/textEditor/dist/wysihtml5-0.4.0pre.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/textEditor/editor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/textEditor/lib/js/wysihtml5-0.3.0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/textEditor/parser_rules/advanced.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/textEditor/sceditor/minified/jquery.sceditor.bbcode.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/textEditor/sceditor/minified/themes/famfamfam.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/textEditor/sceditor/minified/themes/square.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/textEditor/src/bootstrap-wysihtml5.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/textEditor/src/bootstrap3-wysihtml5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/timepicker/bootstrap-timepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/timepicker/bootstrap-timepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tip/jquery.tooltipster.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tip/tooltipster.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/toggle_close.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/images/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/images/file.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/images/folder-closed.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/images/folder.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/images/treeview-black-line.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/images/treeview-black.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/images/treeview-default-line.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/images/treeview-default.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/images/treeview-famfamfam-line.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/images/treeview-famfamfam.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/images/treeview-gray-line.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/images/treeview-gray.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/images/treeview-red-line.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/images/treeview-red.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/jquery.treeview.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/jquery.treeview.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/lib/jquery.cookie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/tabelizer/jquery-ui-1.10.4.custom.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/tabelizer/jquery.tabelizer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/tabelizer/tabelizer.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/treetable/javascripts/src/jquery.treetable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/treetable/stylesheets/jquery.treetable.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/treetable/stylesheets/jquery.treetable.theme.default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/treetable/vendor/jquery-ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/upload/demos/css/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/upload/demos/css/images/dark-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/upload/demos/css/uploader.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/upload/demos/js/demo.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/upload/src/dmuploader.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/validate/img/valid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/validate/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/validate/validate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/wizard/build/jquery.steps.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/wizard/css/jquery.steps.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/wizard/jquery.stepy.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/wizard/jquery.stepy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/wizard/lib/jquery.cookie-1.3.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/wizard/lib/modernizr-2.6.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/blank_page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/blog-detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/blog-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/button.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/calendar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/chart.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/element.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/file-upload.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/form-element.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/grids.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/icon.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/invoice.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/lock-screen.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/mail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/map.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/media.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/pricing_table.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/profile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/social.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/table-dynamic.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/table-static.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/text-editor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/time-line.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/typhography.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/vue/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/vue/layer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/vue/laypage.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/vue/laypage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/vue/vue.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/wizard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/action/back/BaseAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/action/wx/PictureAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/action/wx/SegmentAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/action/wx/VideoAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/bean/Picture.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/bean/Segment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/bean/Video.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/service/PictureService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/service/SegmentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/service/VideoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/service/impl/PictureServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/service/impl/SegmentServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/service/impl/VideoServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/util/ConnectionUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/util/IdUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/util/TimeUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/vo/ResponsePicture.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/vo/ResponseSegment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/vo/ResponseVideo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/conf/dev/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/conf/pro/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/mvc-dispatcher-servlet.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wx/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wx/app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wx/app.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wx/icon/iHate.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wx/icon/iLike.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wx/icon/iPic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wx/icon/iPic_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wx/icon/iText.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wx/icon/iText_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wx/icon/iVideo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wx/icon/iVideo_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wx/pages/index/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wx/pages/index/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wx/pages/index/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wx/pages/index/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wx/pages/logs/logs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wx/pages/logs/logs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wx/pages/logs/logs.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wx/pages/logs/logs.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wx/pages/pics/pics.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wx/pages/pics/pics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wx/pages/pics/pics.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wx/pages/pics/pics.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wx/pages/video/video.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wx/pages/video/video.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wx/pages/video/video.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wx/pages/video/video.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wx/project.config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wx/utils/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/karat/cn/PictureDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/karat/cn/SegmentDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/karat/cn/VideoDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/action/back/BaseAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/action/wx/PictureAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/action/wx/SegmentAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/action/wx/VideoAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/bean/Picture.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/bean/Segment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/bean/Video.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/service/PictureService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/service/SegmentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/service/VideoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/service/impl/PictureServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/service/impl/SegmentServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/service/impl/VideoServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/util/ConnectionUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/util/IdUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/util/TimeUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/vo/ResponsePicture.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/vo/ResponseSegment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/vo/ResponseVideo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/conf/dev/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/conf/pro/db.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/spring/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/spring/mvc-dispatcher-servlet.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/app.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/icon/iHate.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/icon/iLike.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/icon/iPic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/icon/iPic_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/icon/iText.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/icon/iText_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/icon/iVideo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/icon/iVideo_p.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/pages/index/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/pages/index/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/pages/index/index.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/pages/index/index.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/pages/logs/logs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/pages/logs/logs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/pages/logs/logs.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/pages/logs/logs.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/pages/pics/pics.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/pages/pics/pics.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/pages/pics/pics.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/pages/pics/pics.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/pages/video/video.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/pages/video/video.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/pages/video/video.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/pages/video/video.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/project.config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/utils/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/byte-buddy-1.8.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/classmate-1.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/fastjson-1.2.41.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/guava-20.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/jackson-annotations-2.9.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/jcl-over-slf4j-1.7.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/jsoup-1.11.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/mapstruct-1.2.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/mongo-java-driver-3.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/slf4j-api-1.7.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/spring-aop-4.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/spring-beans-4.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/spring-context-4.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/spring-core-4.3.10.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/spring-data-commons-1.11.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/spring-data-mongodb-1.8.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/spring-expression-4.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/spring-jdbc-4.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/spring-plugin-core-1.2.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/spring-plugin-metadata-1.2.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/spring-tx-4.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/spring-web-4.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/spring-webmvc-4.0.2.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/springfox-core-2.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/springfox-schema-2.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/springfox-spi-2.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/springfox-spring-web-2.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/springfox-swagger-common-2.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/springfox-swagger2-2.9.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/swagger-annotations-1.5.20.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/swagger-models-1.5.20.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/500.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/A_addPicture.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/A_addSegment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/A_addVideo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/A_picture.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/A_segment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/A_video.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/andvance-form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/awwwards.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/dripicon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/entypo-icon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/extra-pages.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/icons-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/loader-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/mail.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/maki-icons.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/media.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/open-sans.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/profile.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/ribbons/awwwards_honorable_black_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/ribbons/awwwards_honorable_black_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/ribbons/awwwards_honorable_green_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/ribbons/awwwards_honorable_green_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/ribbons/awwwards_honorable_white_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/ribbons/awwwards_honorable_white_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/signin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/social.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/weather-icons.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/BebasNeue-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/BebasNeue-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/BebasNeue-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/BebasNeue-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/dripicons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/dripicons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/dripicons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/dripicons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/entypo.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/entypo.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/entypo.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/maki.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/maki.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/maki.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/weathericons-regular-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/weathericons-regular-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/weathericons-regular-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/weathericons-regular-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/fonts/glyphicons-halflings-regular (1).eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/fonts/open-sans-light.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/ico/minus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/bg10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/bg11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/bg12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/bg13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/bg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/bg3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/bg3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/bg4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/bg5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/bg8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/bg9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/credit/american-express.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/credit/mastercard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/credit/paypal2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/credit/visa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/giftly.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/insta-pic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/insta-pic2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/minus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/people-q-c-350-250-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/people-q-c-350-250-7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/people-q-c-350-250-8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/plus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/search-dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/search-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/small-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/small-bg10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/small-bg11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/small-bg12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/small-bg13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/small-bg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/small-bg5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/small-bg8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/small-bg9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/button/ladda/ladda.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/button/ladda/ladda.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/button/ladda/spin.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/button/progressbutton.jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/calendar/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/calendar/calendar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/calendar/css/calendar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/calendar/img/tick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/calendar/jstimezonedetect/jstz.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/calendar/language/de-DE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/calendar/language/el-GR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/calendar/language/es-ES.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/calendar/language/es-MX.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/calendar/language/fr-FR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/calendar/language/it-IT.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/calendar/language/pl-PL.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/calendar/language/pt-BR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/calendar/language/ru-RU.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/calendar/language/sv-SE.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/calendar/underscore/underscore-min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/chart/barChart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/chart/chart-float-stacking.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/chart/chart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/chart/jquery.flot.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/chart/jquery.flot.resize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/chart/jquery.flot2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/chart/jquery.sparkline.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/chart/lineChart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/chart/polarChart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/chart/radarChart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/chart/realTime.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/clock/date.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/clock/jquery.clock.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/colorPicker/bootstrap-colorpicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/colorPicker/bootstrap-colorpicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/colorPicker/img/bootstrap-colorpicker/alpha.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/colorPicker/img/bootstrap-colorpicker/hue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/colorPicker/img/bootstrap-colorpicker/saturation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/countdown/jquery.countdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/custom/scriptbreaker-multiple-accordion-1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/dataTable/css/datatables.responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/dataTable/img/minus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/dataTable/img/plus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/dataTable/lib/jquery.dataTables/css/DT_bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/dataTable/lib/jquery.dataTables/images/sort_asc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/dataTable/lib/jquery.dataTables/images/sort_asc_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/dataTable/lib/jquery.dataTables/images/sort_both.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/dataTable/lib/jquery.dataTables/images/sort_desc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/dataTable/lib/jquery.dataTables/images/sort_desc_disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/datepicker/bootstrap-datepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/datepicker/bootstrap-datetimepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/datepicker/clockface.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/datepicker/clockface.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/datepicker/datepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/dropZone/downloads/css/dropzone.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/dropZone/downloads/images/spritemap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/dropZone/downloads/images/spritemap@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/dropZone/lib/dropzone.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/flatvideo/jquery.fitvids.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/footable/css/fonts/footable (1).eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/footable/css/fonts/footable.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/footable/css/fonts/footable.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/footable/css/fonts/footable.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/footable/css/fonts/footable.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/footable/css/footable-demos.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/footable/css/footable.core.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/footable/css/footable.standalone.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/footable/js/footable.filter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/footable/js/footable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/footable/js/footable.paginate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/footable/js/footable.sort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/gage/jquery.easy-pie-chart.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/gage/jquery.easypiechart.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/gage/justgage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/gage/raphael.2.1.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/aero.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/aero@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/all.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/blue@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/flat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/flat@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/green@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/grey@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/orange@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/pink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/pink@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/purple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/purple@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/red@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/yellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/yellow@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/jquery.icheck.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/line/all.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/line/line.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/line/line@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/idealform/css/jquery.idealforms.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/idealform/img/datepicker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/idealform/img/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/idealform/img/radiocheck.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/idealform/img/validation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/idealform/jquery.idealforms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/inputMask/jquery.maskedinput.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/jhere-custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/load.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/map/gmap3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/nano/jquery.nanoscroller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/newsticker/jquery.newsTicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/pace/pace.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/pace/themes/pace-theme-center-simple.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/pnotify/jquery.pnotify.default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/pnotify/jquery.pnotify.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/preloader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/progress-bar/number-pb.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/progress-bar/number-pb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/progress-bar/progress-app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/progress-bar/src/jquery.velocity.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/search/jquery.quicksearch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/skin-select/jquery.cookie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/skin-select/skin-select.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/skin-select/skin-select.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/slidebars/slidebars.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/slidebars/slidebars.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/speed/canvasgauge-coustom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/stackable/responsive-table.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/stackable/stacktable.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/stackable/stacktable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/switch/bootstrap-switch.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/switch/bootstrap-switch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tabs/acc-wizard.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tag/jquery.tagsinput.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tag/jquery.tagsinput.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/textEditor/dist/wysihtml5-0.4.0pre.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/textEditor/editor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/textEditor/lib/js/wysihtml5-0.3.0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/textEditor/parser_rules/advanced.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/textEditor/sceditor/minified/jquery.sceditor.bbcode.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/textEditor/sceditor/minified/themes/famfamfam.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/textEditor/sceditor/minified/themes/square.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/textEditor/src/bootstrap-wysihtml5.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/textEditor/src/bootstrap3-wysihtml5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/timepicker/bootstrap-timepicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/timepicker/bootstrap-timepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tip/jquery.tooltipster.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tip/tooltipster.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/toggle_close.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/images/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/images/file.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/images/folder-closed.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/images/folder.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/images/treeview-black-line.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/images/treeview-black.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/images/treeview-default-line.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/images/treeview-default.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/images/treeview-famfamfam-line.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/images/treeview-famfamfam.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/images/treeview-gray-line.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/images/treeview-gray.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/images/treeview-red-line.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/images/treeview-red.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/jquery.treeview.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/jquery.treeview.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/lib/jquery.cookie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/tabelizer/jquery-ui-1.10.4.custom.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/tabelizer/jquery.tabelizer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/tabelizer/tabelizer.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/treetable/javascripts/src/jquery.treetable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/treetable/stylesheets/jquery.treetable.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/treetable/stylesheets/jquery.treetable.theme.default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/treetable/vendor/jquery-ui.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/upload/demos/css/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/upload/demos/css/images/dark-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/upload/demos/css/uploader.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/upload/demos/js/demo.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/upload/src/dmuploader.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/validate/img/valid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/validate/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/validate/validate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/wizard/build/jquery.steps.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/wizard/css/jquery.steps.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/wizard/jquery.stepy.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/wizard/jquery.stepy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/wizard/lib/jquery.cookie-1.3.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/wizard/lib/modernizr-2.6.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/blank_page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/blog-detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/blog-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/button.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/calendar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/chart.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/element.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/file-upload.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/form-element.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/grids.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/icon.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/invoice.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/lock-screen.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/mail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/map.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/media.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/pricing_table.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/profile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/social.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/table-dynamic.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/table-static.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/text-editor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/time-line.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/typhography.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/vue/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/vue/layer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/vue/laypage.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/vue/laypage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/vue/vue.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/wizard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wx_bsbdj.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/wx_common/target/" />
@@ -879,8 +24,10 @@
     <session id="-1850192892">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -898,7 +45,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wx_provider/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor" />
@@ -907,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wx_web/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+            <state relative-caret-position="34">
+              <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -948,9 +95,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="189" />
-    <option name="y" value="19" />
-    <option name="width" value="1604" />
+    <option name="x" value="592" />
+    <option name="y" value="34" />
+    <option name="width" value="1232" />
     <option name="height" value="948" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -1183,7 +330,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558339970360" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558340950944" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -1294,49 +441,50 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558339521415</updated>
-      <workItem from="1558339522698" duration="902000" />
+      <workItem from="1558339522698" duration="1096000" />
+      <workItem from="1558340621753" duration="273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="902000" />
+    <option name="totallyTimeSpent" value="1369000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="189" y="19" width="1604" height="948" extended-state="1" />
+    <frame x="697" y="36" width="1232" height="948" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22193211" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29827586" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.32954547" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.79924244" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.79924244" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Maven Projects" weight="0.32963446" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32954547" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32963446" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1416,8 +564,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wx_web/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+        <state relative-caret-position="34">
+          <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
         </state>
       </provider>
     </entry>
