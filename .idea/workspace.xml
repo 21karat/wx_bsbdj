@@ -2,129 +2,903 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="wx_bsbdj:war" />
+      <artifact name="wx_provider:war" />
+      <artifact name="wx_web:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="516d966b-6e50-45d1-bbf1-0c036e79a34f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="0abfc36c-e2ac-400d-a5ea-904ef4de23e1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/action/back/BaseAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/action/wx/PictureAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/action/wx/SegmentAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/action/wx/VideoAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/bean/Picture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/bean/Segment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/bean/Video.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/service/PictureService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/service/SegmentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/service/VideoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/service/impl/PictureServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/service/impl/SegmentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/service/impl/VideoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/util/ConnectionUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/util/IdUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/util/TimeUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/vo/ResponsePicture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/vo/ResponseSegment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/karat/cn/vo/ResponseVideo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/conf/dev/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/conf/pro/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/mvc-dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/app.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/icon/iHate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/icon/iLike.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/icon/iPic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/icon/iPic_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/icon/iText.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/icon/iText_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/icon/iVideo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/icon/iVideo_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pages/index/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pages/index/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pages/index/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pages/index/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pages/logs/logs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pages/logs/logs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pages/logs/logs.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pages/logs/logs.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pages/pics/pics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pages/pics/pics.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pages/pics/pics.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pages/pics/pics.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pages/video/video.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pages/video/video.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pages/video/video.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pages/video/video.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pic/QQ截图20190513121240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pic/QQ截图20190513121507.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pic/QQ截图20190513121520.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pic/QQ截图20190513135038.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/pic/QQ截图20190513135059.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/project.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/wx/utils/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/com/karat/cn/PictureDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/com/karat/cn/SegmentDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/com/karat/cn/VideoDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/A_addPicture.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/A_addSegment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/A_addVideo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/A_picture.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/A_segment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/A_video.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/andvance-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/awwwards.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/dripicon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/entypo-icon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/extra-pages.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/icons-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/loader-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/mail.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/maki-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/media.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/open-sans.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/profile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/ribbons/awwwards_honorable_black_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/ribbons/awwwards_honorable_black_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/ribbons/awwwards_honorable_green_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/ribbons/awwwards_honorable_green_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/ribbons/awwwards_honorable_white_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/ribbons/awwwards_honorable_white_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/signin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/social.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/css/weather-icons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/BebasNeue-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/BebasNeue-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/BebasNeue-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/BebasNeue-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/dripicons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/dripicons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/dripicons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/dripicons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/entypo.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/entypo.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/entypo.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/maki.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/maki.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/maki.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/weathericons-regular-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/weathericons-regular-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/weathericons-regular-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/font/weathericons-regular-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/fonts/glyphicons-halflings-regular (1).eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/fonts/open-sans-light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/ico/minus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/bg10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/bg11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/bg12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/bg13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/bg2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/bg3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/bg3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/bg4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/bg5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/bg8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/bg9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/credit/american-express.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/credit/mastercard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/credit/paypal2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/credit/visa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/giftly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/insta-pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/insta-pic2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/minus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/people-q-c-350-250-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/people-q-c-350-250-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/people-q-c-350-250-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/search-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/search-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/small-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/small-bg10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/small-bg11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/small-bg12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/small-bg13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/small-bg2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/small-bg5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/small-bg8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/img/small-bg9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/button/ladda/ladda.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/button/ladda/ladda.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/button/ladda/spin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/button/progressbutton.jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/calendar/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/calendar/calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/calendar/css/calendar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/calendar/img/tick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/calendar/jstimezonedetect/jstz.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/calendar/language/de-DE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/calendar/language/el-GR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/calendar/language/es-ES.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/calendar/language/es-MX.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/calendar/language/fr-FR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/calendar/language/it-IT.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/calendar/language/pl-PL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/calendar/language/pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/calendar/language/ru-RU.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/calendar/language/sv-SE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/calendar/underscore/underscore-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/chart/barChart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/chart/chart-float-stacking.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/chart/chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/chart/jquery.flot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/chart/jquery.flot.resize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/chart/jquery.flot2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/chart/jquery.sparkline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/chart/lineChart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/chart/polarChart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/chart/radarChart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/chart/realTime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/clock/date.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/clock/jquery.clock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/colorPicker/bootstrap-colorpicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/colorPicker/bootstrap-colorpicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/colorPicker/img/bootstrap-colorpicker/alpha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/colorPicker/img/bootstrap-colorpicker/hue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/colorPicker/img/bootstrap-colorpicker/saturation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/countdown/jquery.countdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/custom/scriptbreaker-multiple-accordion-1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/dataTable/css/datatables.responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/dataTable/img/minus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/dataTable/img/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/dataTable/lib/jquery.dataTables/css/DT_bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/dataTable/lib/jquery.dataTables/images/sort_asc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/dataTable/lib/jquery.dataTables/images/sort_asc_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/dataTable/lib/jquery.dataTables/images/sort_both.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/dataTable/lib/jquery.dataTables/images/sort_desc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/dataTable/lib/jquery.dataTables/images/sort_desc_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/datepicker/bootstrap-datepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/datepicker/bootstrap-datetimepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/datepicker/clockface.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/datepicker/clockface.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/datepicker/datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/dropZone/downloads/css/dropzone.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/dropZone/downloads/images/spritemap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/dropZone/downloads/images/spritemap@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/dropZone/lib/dropzone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/flatvideo/jquery.fitvids.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/footable/css/fonts/footable (1).eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/footable/css/fonts/footable.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/footable/css/fonts/footable.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/footable/css/fonts/footable.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/footable/css/fonts/footable.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/footable/css/footable-demos.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/footable/css/footable.core.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/footable/css/footable.standalone.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/footable/js/footable.filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/footable/js/footable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/footable/js/footable.paginate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/footable/js/footable.sort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/gage/jquery.easy-pie-chart.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/gage/jquery.easypiechart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/gage/justgage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/gage/raphael.2.1.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/aero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/aero@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/blue@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/flat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/flat@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/green@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/grey@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/orange@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/pink@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/purple@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/red@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/flat/yellow@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/jquery.icheck.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/line/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/line/line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/iCheck/line/line@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/idealform/css/jquery.idealforms.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/idealform/img/datepicker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/idealform/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/idealform/img/radiocheck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/idealform/img/validation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/idealform/jquery.idealforms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/inputMask/jquery.maskedinput.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/jhere-custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/load.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/map/gmap3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/nano/jquery.nanoscroller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/newsticker/jquery.newsTicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/pace/pace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/pace/themes/pace-theme-center-simple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/pnotify/jquery.pnotify.default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/pnotify/jquery.pnotify.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/preloader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/progress-bar/number-pb.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/progress-bar/number-pb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/progress-bar/progress-app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/progress-bar/src/jquery.velocity.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/search/jquery.quicksearch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/skin-select/jquery.cookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/skin-select/skin-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/skin-select/skin-select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/slidebars/slidebars.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/slidebars/slidebars.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/speed/canvasgauge-coustom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/stackable/responsive-table.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/stackable/stacktable.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/stackable/stacktable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/switch/bootstrap-switch.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/switch/bootstrap-switch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tabs/acc-wizard.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tag/jquery.tagsinput.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tag/jquery.tagsinput.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/textEditor/dist/wysihtml5-0.4.0pre.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/textEditor/editor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/textEditor/lib/js/wysihtml5-0.3.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/textEditor/parser_rules/advanced.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/textEditor/sceditor/minified/jquery.sceditor.bbcode.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/textEditor/sceditor/minified/themes/famfamfam.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/textEditor/sceditor/minified/themes/square.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/textEditor/src/bootstrap-wysihtml5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/textEditor/src/bootstrap3-wysihtml5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/timepicker/bootstrap-timepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/timepicker/bootstrap-timepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tip/jquery.tooltipster.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tip/tooltipster.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/toggle_close.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/images/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/images/file.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/images/folder-closed.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/images/folder.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/images/treeview-black-line.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/images/treeview-black.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/images/treeview-default-line.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/images/treeview-default.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/images/treeview-famfamfam-line.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/images/treeview-famfamfam.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/images/treeview-gray-line.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/images/treeview-gray.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/images/treeview-red-line.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/images/treeview-red.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/jquery.treeview.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/jquery.treeview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/lib/jquery.cookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/tabelizer/jquery-ui-1.10.4.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/tabelizer/jquery.tabelizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/tabelizer/tabelizer.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/treetable/javascripts/src/jquery.treetable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/treetable/stylesheets/jquery.treetable.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/treetable/stylesheets/jquery.treetable.theme.default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/tree/treetable/vendor/jquery-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/upload/demos/css/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/upload/demos/css/images/dark-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/upload/demos/css/uploader.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/upload/demos/js/demo.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/upload/src/dmuploader.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/validate/img/valid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/validate/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/validate/validate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/wizard/build/jquery.steps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/wizard/css/jquery.steps.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/wizard/jquery.stepy.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/wizard/jquery.stepy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/wizard/lib/jquery.cookie-1.3.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/assets/js/wizard/lib/modernizr-2.6.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/blank_page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/blog-detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/blog-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/button.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/calendar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/chart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/element.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/file-upload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/form-element.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/grids.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/icon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/invoice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/lock-screen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/media.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/pricing_table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/social.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/table-dynamic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/table-static.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/text-editor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/time-line.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/typhography.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/vue/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/vue/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/vue/laypage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/vue/laypage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/vue/vue.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/wizard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/action/back/BaseAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/action/wx/PictureAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/action/wx/SegmentAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/action/wx/VideoAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/bean/Picture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/bean/Segment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/bean/Video.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/service/PictureService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/service/SegmentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/service/VideoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/service/impl/PictureServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/service/impl/SegmentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/service/impl/VideoServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/util/ConnectionUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/util/IdUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/util/TimeUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/vo/ResponsePicture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/vo/ResponseSegment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/karat/cn/vo/ResponseVideo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/conf/dev/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/conf/pro/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/mvc-dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wx/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wx/app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wx/app.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wx/icon/iHate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wx/icon/iLike.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wx/icon/iPic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wx/icon/iPic_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wx/icon/iText.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wx/icon/iText_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wx/icon/iVideo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wx/icon/iVideo_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wx/pages/index/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wx/pages/index/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wx/pages/index/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wx/pages/index/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wx/pages/logs/logs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wx/pages/logs/logs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wx/pages/logs/logs.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wx/pages/logs/logs.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wx/pages/pics/pics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wx/pages/pics/pics.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wx/pages/pics/pics.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wx/pages/pics/pics.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wx/pages/video/video.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wx/pages/video/video.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wx/pages/video/video.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wx/pages/video/video.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wx/project.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wx/utils/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/karat/cn/PictureDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/karat/cn/SegmentDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/karat/cn/VideoDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/action/back/BaseAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/action/wx/PictureAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/action/wx/SegmentAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/action/wx/VideoAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/bean/Picture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/bean/Segment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/bean/Video.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/service/PictureService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/service/SegmentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/service/VideoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/service/impl/PictureServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/service/impl/SegmentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/service/impl/VideoServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/util/ConnectionUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/util/IdUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/util/TimeUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/vo/ResponsePicture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/vo/ResponseSegment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/com/karat/cn/vo/ResponseVideo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/conf/dev/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/conf/pro/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/spring/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/spring/mvc-dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/app.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/icon/iHate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/icon/iLike.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/icon/iPic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/icon/iPic_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/icon/iText.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/icon/iText_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/icon/iVideo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/icon/iVideo_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/pages/index/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/pages/index/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/pages/index/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/pages/index/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/pages/logs/logs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/pages/logs/logs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/pages/logs/logs.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/pages/logs/logs.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/pages/pics/pics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/pages/pics/pics.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/pages/pics/pics.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/pages/pics/pics.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/pages/video/video.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/pages/video/video.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/pages/video/video.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/pages/video/video.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/project.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/classes/wx/utils/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/byte-buddy-1.8.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/classmate-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/fastjson-1.2.41.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/guava-20.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/jackson-annotations-2.9.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/jcl-over-slf4j-1.7.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/jsoup-1.11.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/mapstruct-1.2.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/mongo-java-driver-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/slf4j-api-1.7.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/spring-aop-4.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/spring-beans-4.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/spring-context-4.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/spring-core-4.3.10.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/spring-data-commons-1.11.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/spring-data-mongodb-1.8.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/spring-expression-4.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/spring-jdbc-4.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/spring-plugin-core-1.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/spring-plugin-metadata-1.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/spring-tx-4.1.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/spring-web-4.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/spring-webmvc-4.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/springfox-core-2.9.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/springfox-schema-2.9.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/springfox-spi-2.9.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/springfox-spring-web-2.9.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/springfox-swagger-common-2.9.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/springfox-swagger2-2.9.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/swagger-annotations-1.5.20.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/lib/swagger-models-1.5.20.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/A_addPicture.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/A_addSegment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/A_addVideo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/A_picture.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/A_segment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/A_video.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/andvance-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/awwwards.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/dripicon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/entypo-icon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/extra-pages.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/icons-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/loader-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/mail.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/maki-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/media.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/open-sans.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/profile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/ribbons/awwwards_honorable_black_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/ribbons/awwwards_honorable_black_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/ribbons/awwwards_honorable_green_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/ribbons/awwwards_honorable_green_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/ribbons/awwwards_honorable_white_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/ribbons/awwwards_honorable_white_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/signin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/social.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/css/weather-icons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/BebasNeue-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/BebasNeue-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/BebasNeue-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/BebasNeue-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/dripicons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/dripicons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/dripicons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/dripicons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/entypo.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/entypo.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/entypo.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/maki.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/maki.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/maki.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/weathericons-regular-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/weathericons-regular-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/weathericons-regular-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/font/weathericons-regular-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/fonts/glyphicons-halflings-regular (1).eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/fonts/open-sans-light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/ico/minus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/bg10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/bg11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/bg12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/bg13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/bg2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/bg3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/bg3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/bg4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/bg5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/bg8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/bg9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/credit/american-express.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/credit/mastercard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/credit/paypal2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/credit/visa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/giftly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/insta-pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/insta-pic2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/minus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/people-q-c-350-250-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/people-q-c-350-250-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/people-q-c-350-250-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/search-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/search-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/small-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/small-bg10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/small-bg11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/small-bg12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/small-bg13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/small-bg2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/small-bg5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/small-bg8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/img/small-bg9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/button/ladda/ladda.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/button/ladda/ladda.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/button/ladda/spin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/button/progressbutton.jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/calendar/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/calendar/calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/calendar/css/calendar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/calendar/img/tick.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/calendar/jstimezonedetect/jstz.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/calendar/language/de-DE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/calendar/language/el-GR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/calendar/language/es-ES.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/calendar/language/es-MX.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/calendar/language/fr-FR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/calendar/language/it-IT.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/calendar/language/pl-PL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/calendar/language/pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/calendar/language/ru-RU.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/calendar/language/sv-SE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/calendar/underscore/underscore-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/chart/barChart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/chart/chart-float-stacking.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/chart/chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/chart/jquery.flot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/chart/jquery.flot.resize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/chart/jquery.flot2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/chart/jquery.sparkline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/chart/lineChart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/chart/polarChart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/chart/radarChart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/chart/realTime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/clock/date.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/clock/jquery.clock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/colorPicker/bootstrap-colorpicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/colorPicker/bootstrap-colorpicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/colorPicker/img/bootstrap-colorpicker/alpha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/colorPicker/img/bootstrap-colorpicker/hue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/colorPicker/img/bootstrap-colorpicker/saturation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/countdown/jquery.countdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/custom/scriptbreaker-multiple-accordion-1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/dataTable/css/datatables.responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/dataTable/img/minus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/dataTable/img/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/dataTable/lib/jquery.dataTables/css/DT_bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/dataTable/lib/jquery.dataTables/images/sort_asc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/dataTable/lib/jquery.dataTables/images/sort_asc_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/dataTable/lib/jquery.dataTables/images/sort_both.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/dataTable/lib/jquery.dataTables/images/sort_desc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/dataTable/lib/jquery.dataTables/images/sort_desc_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/datepicker/bootstrap-datepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/datepicker/bootstrap-datetimepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/datepicker/clockface.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/datepicker/clockface.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/datepicker/datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/dropZone/downloads/css/dropzone.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/dropZone/downloads/images/spritemap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/dropZone/downloads/images/spritemap@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/dropZone/lib/dropzone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/flatvideo/jquery.fitvids.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/footable/css/fonts/footable (1).eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/footable/css/fonts/footable.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/footable/css/fonts/footable.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/footable/css/fonts/footable.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/footable/css/fonts/footable.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/footable/css/footable-demos.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/footable/css/footable.core.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/footable/css/footable.standalone.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/footable/js/footable.filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/footable/js/footable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/footable/js/footable.paginate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/footable/js/footable.sort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/gage/jquery.easy-pie-chart.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/gage/jquery.easypiechart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/gage/justgage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/gage/raphael.2.1.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/aero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/aero@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/blue@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/flat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/flat@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/green@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/grey@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/orange@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/pink@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/purple@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/red@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/flat/yellow@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/jquery.icheck.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/line/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/line/line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/iCheck/line/line@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/idealform/css/jquery.idealforms.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/idealform/img/datepicker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/idealform/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/idealform/img/radiocheck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/idealform/img/validation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/idealform/jquery.idealforms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/inputMask/jquery.maskedinput.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/jhere-custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/load.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/map/gmap3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/nano/jquery.nanoscroller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/newsticker/jquery.newsTicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/pace/pace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/pace/themes/pace-theme-center-simple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/pnotify/jquery.pnotify.default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/pnotify/jquery.pnotify.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/preloader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/progress-bar/number-pb.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/progress-bar/number-pb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/progress-bar/progress-app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/progress-bar/src/jquery.velocity.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/search/jquery.quicksearch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/skin-select/jquery.cookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/skin-select/skin-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/skin-select/skin-select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/slidebars/slidebars.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/slidebars/slidebars.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/speed/canvasgauge-coustom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/stackable/responsive-table.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/stackable/stacktable.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/stackable/stacktable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/switch/bootstrap-switch.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/switch/bootstrap-switch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tabs/acc-wizard.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tag/jquery.tagsinput.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tag/jquery.tagsinput.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/textEditor/dist/wysihtml5-0.4.0pre.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/textEditor/editor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/textEditor/lib/js/wysihtml5-0.3.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/textEditor/parser_rules/advanced.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/textEditor/sceditor/minified/jquery.sceditor.bbcode.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/textEditor/sceditor/minified/themes/famfamfam.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/textEditor/sceditor/minified/themes/square.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/textEditor/src/bootstrap-wysihtml5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/textEditor/src/bootstrap3-wysihtml5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/timepicker/bootstrap-timepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/timepicker/bootstrap-timepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tip/jquery.tooltipster.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tip/tooltipster.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/toggle_close.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/images/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/images/file.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/images/folder-closed.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/images/folder.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/images/treeview-black-line.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/images/treeview-black.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/images/treeview-default-line.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/images/treeview-default.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/images/treeview-famfamfam-line.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/images/treeview-famfamfam.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/images/treeview-gray-line.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/images/treeview-gray.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/images/treeview-red-line.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/images/treeview-red.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/jquery.treeview.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/jquery.treeview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/lib/jquery.cookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/tabelizer/jquery-ui-1.10.4.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/tabelizer/jquery.tabelizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/tabelizer/tabelizer.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/treetable/javascripts/src/jquery.treetable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/treetable/stylesheets/jquery.treetable.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/treetable/stylesheets/jquery.treetable.theme.default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/tree/treetable/vendor/jquery-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/upload/demos/css/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/upload/demos/css/images/dark-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/upload/demos/css/uploader.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/upload/demos/js/demo.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/upload/src/dmuploader.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/validate/img/valid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/validate/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/validate/validate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/wizard/build/jquery.steps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/wizard/css/jquery.steps.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/wizard/jquery.stepy.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/wizard/jquery.stepy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/wizard/lib/jquery.cookie-1.3.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/assets/js/wizard/lib/modernizr-2.6.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/blank_page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/blog-detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/blog-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/button.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/calendar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/chart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/element.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/file-upload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/form-element.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/grids.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/icon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/invoice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/lock-screen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/media.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/pricing_table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/social.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/table-dynamic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/table-static.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/text-editor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/time-line.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/typhography.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/vue/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/vue/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/vue/laypage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/vue/laypage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/vue/vue.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/html/wizard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wx_bsbdj/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wx_bsbdj.iml" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/wx_common/target/" />
+    <ignored path="$PROJECT_DIR$/wx_provider/target/" />
+    <ignored path="$PROJECT_DIR$/wx_web/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1850192892">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.32" value="1" />
-          <entry key="project.open.time.33" value="2" />
-          <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.37" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="6" />
-          <entry key="css" value="1" />
-          <entry key="html" value="65" />
-          <entry key="java" value="158" />
-          <entry key="js" value="9" />
-          <entry key="json" value="1" />
-          <entry key="pom" value="1" />
-          <entry key="properties" value="7" />
-          <entry key="rnc" value="1" />
-          <entry key="wxml" value="1" />
-          <entry key="xml" value="28" />
+          <entry key="java" value="2" />
+          <entry key="xml" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="6" />
-          <entry key="CSS" value="1" />
-          <entry key="HTML" value="65" />
-          <entry key="JAVA" value="158" />
-          <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="9" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="7" />
-          <entry key="RNG Compact" value="1" />
-          <entry key="XML" value="29" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="1" />
-          <entry key="html" value="1016" />
-          <entry key="java" value="2564" />
-          <entry key="properties" value="5" />
-          <entry key="xml" value="133" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="HTML" value="1016" />
-          <entry key="JAVA" value="2564" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="5" />
-          <entry key="XML" value="133" />
+          <entry key="JAVA" value="2" />
+          <entry key="XML" value="14" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>FORM VALIDATION</find>
-      <find>nt-title</find>
-      <find>Blog</find>
-      <find>from</find>
-      <find>submit</find>
-      <find>contact</find>
-      <find>/resources/</find>
-      <find>error</find>
-      <find>APP</find>
-      <find>FOOTABLE PAGINATE</find>
-      <find>jquery.min.js</find>
-      <find>duanzi</find>
-      <find>FORM</find>
-      <find>VALIDATION</find>
-      <find>笑话</find>
-    </findStrings>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -132,49 +906,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/karat/cn/util/json/JsonUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/conf/dev/db.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/karat/cn/util/IdUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/test/java/com/karat/cn/SegmentDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/karat/cn/util/TimeUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/html/new/segment.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/html/new/segment/addSegment.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/html/addSegment.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/html/AaddSegment.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/index.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/A_addSegment.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/mvc-dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/karat/cn/bean/Segment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/karat/cn/util/ConnectionUtil.java" />
+        <option value="$PROJECT_DIR$/wx_provider/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/karat/cn/vo/ResponseSegment.java" />
-        <option value="$PROJECT_DIR$/src/main/test/com/karat/cn/SegmentDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/karat/cn/bean/Picture.java" />
-        <option value="$PROJECT_DIR$/src/main/test/com/karat/cn/PictureDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/karat/cn/vo/ResponsePicture.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/karat/cn/service/SegmentService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/karat/cn/service/impl/SegmentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/karat/cn/action/wx/SegmentAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/karat/cn/service/PictureService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/karat/cn/service/impl/PictureServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/karat/cn/action/wx/PictureAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/karat/cn/service/VideoService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/karat/cn/bean/Video.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/karat/cn/service/impl/VideoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/karat/cn/vo/ReponseVideo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/karat/cn/vo/ResponseVideo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/karat/cn/action/wx/VideoAction.java" />
-        <option value="$PROJECT_DIR$/src/main/test/com/karat/cn/VideoDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/html/vue/A_addVideo.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/html/index.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/html/A_addPicture.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/html/A_addSegment.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/html/A_picture.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/html/A_segment.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/html/A_video.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/html/A_addVideo.html" />
+        <option value="$PROJECT_DIR$/wx_web/pom.xml" />
+        <option value="$PROJECT_DIR$/wx_common/pom.xml" />
       </list>
     </option>
   </component>
@@ -193,20 +928,15 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="wx_bsbdj Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="419" />
-    <option name="y" value="55" />
-    <option name="width" value="1340" />
-    <option name="height" value="955" />
+    <option name="x" value="189" />
+    <option name="y" value="19" />
+    <option name="width" value="1604" />
+    <option name="height" value="948" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -214,8 +944,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,17 +954,25 @@
             <path>
               <item name="wx_bsbdj" type="b2602c69:ProjectViewProjectNode" />
               <item name="wx_bsbdj" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx_bsbdj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx_bsbdj" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wx_bsbdj" type="b2602c69:ProjectViewProjectNode" />
               <item name="wx_bsbdj" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wx_bsbdj" type="b2602c69:ProjectViewProjectNode" />
               <item name="wx_bsbdj" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -244,54 +980,199 @@
             <path>
               <item name="wx_bsbdj" type="b2602c69:ProjectViewProjectNode" />
               <item name="wx_bsbdj" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wx_bsbdj" type="b2602c69:ProjectViewProjectNode" />
               <item name="wx_bsbdj" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx_bsbdj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx_bsbdj" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx_bsbdj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx_bsbdj" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx_bsbdj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx_bsbdj" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx_bsbdj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx_bsbdj" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx_bsbdj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx_bsbdj" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx_bsbdj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx_bsbdj" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx_bsbdj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx_bsbdj" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx_bsbdj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx_bsbdj" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx_bsbdj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx_bsbdj" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx_bsbdj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx_bsbdj" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx_bsbdj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx_bsbdj" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx_bsbdj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx_bsbdj" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx_bsbdj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx_bsbdj" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx_bsbdj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx_bsbdj" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx_bsbdj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx_bsbdj" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx_bsbdj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx_bsbdj" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx_bsbdj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx_bsbdj" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx_bsbdj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx_bsbdj" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx_bsbdj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx_bsbdj" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wx_bsbdj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wx_bsbdj" type="462c0819:PsiDirectoryNode" />
+              <item name="wx_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557727658715" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../aone_model" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558339937355" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.39338234" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\JavaEE\wx_bsbdj\src\main\resources\wx\pic" />
-      <recent name="E:\JavaEE\wx_bsbdj\src\main\webapp\html\vue" />
-      <recent name="E:\JavaEE\wx_bsbdj\src\main\webapp\html" />
-      <recent name="E:\JavaEE\wx_bsbdj\src\main\webapp\WEB-INF\html" />
-      <recent name="E:\JavaEE\wx_bsbdj\src\main\resources\conf\pro" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.karat.cn" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\JavaEE\wx_bsbdj\src\main\webapp\html" />
-      <recent name="E:\JavaEE\wx_bsbdj\src\main\webapp" />
-      <recent name="E:\JavaEE\wx_bsbdj\src\main\webapp\resources" />
-      <recent name="E:\JavaEE\wx_bsbdj\src\main\webapp\html\new\segment" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -305,100 +1186,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.tomcat">
-    <configuration name="PictureDemo.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="wx_bsbdj" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.karat.cn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.karat.cn" />
-      <option name="MAIN_CLASS_NAME" value="com.karat.cn.PictureDemo" />
-      <option name="METHOD_NAME" value="testAdd" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PictureDemo.testSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="wx_bsbdj" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.karat.cn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.karat.cn" />
-      <option name="MAIN_CLASS_NAME" value="com.karat.cn.PictureDemo" />
-      <option name="METHOD_NAME" value="testSelect" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SegmentDemo.duanzi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="wx_bsbdj" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.karat.cn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.karat.cn" />
-      <option name="MAIN_CLASS_NAME" value="com.karat.cn.SegmentDemo" />
-      <option name="METHOD_NAME" value="duanzi" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SegmentDemo.testSelect (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="wx_bsbdj" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.karat.cn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.karat.cn" />
-      <option name="MAIN_CLASS_NAME" value="com.karat.cn.SegmentDemo" />
-      <option name="METHOD_NAME" value="testSelect" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VideoDemo.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="wx_bsbdj" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.karat.cn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.karat.cn" />
-      <option name="MAIN_CLASS_NAME" value="com.karat.cn.VideoDemo" />
-      <option name="METHOD_NAME" value="testAdd" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.50" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/html/index.html" />
+  <component name="RunManager">
+    <configuration name="web" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.50" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8888/wx/html/index.html" />
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="wx_bsbdj:war">
+        <artifact name="wx_provider:war">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
+        <artifact name="wx_web:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/wx" />
+          </settings>
+        </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_wx_bsbdj" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_wx_bsbdj_2" />
+        <option name="JNDI_PORT" value="1899" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -406,7 +1213,7 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="59408" />
+        <option name="DEBUG_PORT" value="51856" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -456,161 +1263,65 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="wx_bsbdj:war" />
+          <artifact name="wx_provider:war" />
+          <artifact name="wx_web:war" />
         </option>
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Tomcat Server.tomcat" />
-      <item itemvalue="JUnit.SegmentDemo.testSelect (1)" />
-      <item itemvalue="JUnit.SegmentDemo.duanzi" />
-      <item itemvalue="JUnit.PictureDemo.testAdd" />
-      <item itemvalue="JUnit.PictureDemo.testSelect" />
-      <item itemvalue="JUnit.VideoDemo.testAdd" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.VideoDemo.testAdd" />
-        <item itemvalue="JUnit.PictureDemo.testSelect" />
-        <item itemvalue="JUnit.PictureDemo.testAdd" />
-        <item itemvalue="JUnit.SegmentDemo.duanzi" />
-        <item itemvalue="JUnit.SegmentDemo.testSelect (1)" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="516d966b-6e50-45d1-bbf1-0c036e79a34f" name="Default Changelist" comment="" />
-      <created>1557216518996</created>
+      <changelist id="0abfc36c-e2ac-400d-a5ea-904ef4de23e1" name="Default Changelist" comment="" />
+      <created>1558339521415</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1557216518996</updated>
-      <workItem from="1557216520503" duration="10057000" />
-      <workItem from="1557284812729" duration="10841000" />
-      <workItem from="1557299217767" duration="12142000" />
-      <workItem from="1557380396855" duration="11132000" />
-      <workItem from="1557456848353" duration="11384000" />
-      <workItem from="1557645533765" duration="1498000" />
-      <workItem from="1557719013680" duration="6653000" />
+      <updated>1558339521415</updated>
+      <workItem from="1558339522698" duration="319000" />
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="SegmentDemo_testAdd_(1) - 2019.05.07 at 17h 52m 13s.xml">
-      <configuration name="SegmentDemo.testAdd (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SegmentDemo_testSelect_(1) - 2019.05.07 at 17h 52m 38s.xml">
-      <configuration name="SegmentDemo.testSelect (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SegmentDemo_testAdd_(1) - 2019.05.07 at 18h 03m 21s.xml">
-      <configuration name="SegmentDemo.testAdd (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SegmentDemo_testSelect_(1) - 2019.05.07 at 18h 27m 13s.xml">
-      <configuration name="SegmentDemo.testSelect (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SegmentDemo_duanzi - 2019.05.09 at 14h 11m 53s.xml">
-      <configuration name="SegmentDemo.duanzi" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PictureDemo_testAdd - 2019.05.10 at 15h 13m 51s.xml">
-      <configuration name="PictureDemo.testAdd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PictureDemo_testAdd - 2019.05.10 at 15h 14m 45s.xml">
-      <configuration name="PictureDemo.testAdd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PictureDemo_testSelect - 2019.05.10 at 15h 15m 03s.xml">
-      <configuration name="PictureDemo.testSelect" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VideoDemo_testAdd - 2019.05.10 at 17h 01m 16s.xml">
-      <configuration name="VideoDemo.testAdd" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VideoDemo_testAdd - 2019.05.13 at 11h 57m 44s.xml">
-      <configuration name="VideoDemo.testAdd" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63707000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="319000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="419" y="55" width="1340" height="955" extended-state="0" />
+    <frame x="319" y="19" width="1604" height="948" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4980341" visible="true" weight="0.3548896" />
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22193211" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" sideWeight="0.50196594" side_tool="true" weight="0.22492582" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.32954547" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32896462" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.8272841" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.79924244" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32916147" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.46090534" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32921812" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32921812" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="14" weight="0.3279099" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Maven Projects" weight="0.32966226" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.33308327" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32947582" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="Image Layers" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="Web" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.2348901" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32921812" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32921812" />
-      <window_info anchor="bottom" id="Java Enterprise" order="4" />
-      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" />
-      <window_info anchor="bottom" id="Run" order="9" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Maven Projects" order="2" weight="0.3276099" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -619,425 +1330,82 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/assets/js/map/gmap3.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/chart.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/social.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/4.0.2.RELEASE/spring-webmvc-4.0.2.RELEASE.jar!/org/springframework/web/servlet/View.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/4.0.2.RELEASE/spring-webmvc-4.0.2.RELEASE.jar!/org/springframework/web/servlet/ModelAndView.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="61" column="25" lean-forward="true" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/assets/js/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="7578" column="57" selection-start-line="7578" selection-start-column="52" selection-end-line="7578" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="23" column="51" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/mvc-dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/vue/laypage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="99" selection-start-line="1" selection-start-column="99" selection-end-line="1" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/vue/layer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="73" lean-forward="true" selection-start-line="1" selection-start-column="73" selection-end-line="1" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/vue/vue.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="7" column="117" selection-start-line="7" selection-start-column="117" selection-end-line="7" selection-end-column="117" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/vue/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/assets/js/footable/js/footable.paginate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="149" column="58" selection-start-line="149" selection-start-column="58" selection-end-line="149" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        <state relative-caret-position="177">
+          <caret line="206" column="39" selection-start-line="206" selection-start-column="39" selection-end-line="206" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/data/spring-data-mongodb/1.8.2.RELEASE/spring-data-mongodb-1.8.2.RELEASE.jar!/org/springframework/data/mongodb/core/MongoTemplate.class">
+    <entry file="file://$PROJECT_DIR$/wx_provider/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="499" column="16" selection-start-line="499" selection-start-column="16" selection-end-line="499" selection-end-column="16" />
+        <state relative-caret-position="-351">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/vue/laypage.css">
+    <entry file="file://$PROJECT_DIR$/wx_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-390">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-831" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_provider/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/table-dynamic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2600">
-          <caret line="1154" column="20" selection-start-line="1154" selection-start-column="12" selection-end-line="1154" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/embed.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/karat/cn/util/ConnectionUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/karat/cn/bean/Segment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/karat/cn/vo/ResponseSegment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/karat/cn/service/SegmentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/karat/cn/service/PictureService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="27" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/karat/cn/service/VideoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/karat/cn/service/impl/SegmentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1066">
-          <caret line="44" column="9" lean-forward="true" selection-start-line="37" selection-start-column="8" selection-end-line="44" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/mail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2592" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/karat/cn/bean/Picture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/karat/cn/vo/ResponsePicture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/karat/cn/bean/Video.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="27" />
-          <folding>
-            <element signature="e#936#937#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/karat/cn/vo/ResponseVideo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="292" column="24" selection-start-line="292" selection-start-column="24" selection-end-line="339" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/A_addSegment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="352" column="31" selection-start-line="352" selection-start-column="31" selection-end-line="352" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/A_video.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="341" column="31" selection-start-line="341" selection-start-column="31" selection-end-line="341" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/A_addVideo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2319">
-          <caret line="664" column="36" selection-start-line="664" selection-start-column="36" selection-end-line="664" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/karat/cn/service/impl/PictureServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="47" column="34" lean-forward="true" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
-          <folding>
-            <element signature="e#1574#1575#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/karat/cn/service/impl/VideoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="43" column="57" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="51" column="2" selection-start-line="51" selection-start-column="2" selection-end-line="51" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/karat/cn/action/back/BaseAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/karat/cn/action/wx/PictureAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/karat/cn/action/wx/SegmentAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-167">
-          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/karat/cn/action/wx/VideoAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="38" column="59" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/com/karat/cn/PictureDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="35" column="113" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="113" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/com/karat/cn/SegmentDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-770">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/com/karat/cn/VideoDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/A_picture.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3267">
-          <caret line="915" column="41" selection-start-line="915" selection-start-column="32" selection-end-line="915" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/A_segment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="341" column="31" selection-start-line="341" selection-start-column="31" selection-end-line="341" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/A_addPicture.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="293" column="27" lean-forward="true" selection-start-line="293" selection-start-column="27" selection-end-line="293" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/wx/pages/pics/pics.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/wx/pages/pics/pics.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-500">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/wx/pages/pics/pics.json">
+    <entry file="file://$PROJECT_DIR$/wx_web/src/main/resources/spring/application.xml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_web/src/main/resources/spring/dubbo-consumer.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_web/src/main/resources/spring/spring-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-795" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_provider/src/main/resources/spring/application.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_provider/src/main/resources/spring/dubbo-provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_common/src/main/java/com/karat/cn/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wx_provider/src/main/java/com/karat/cn/impl/PictureServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>wx_bsbdj:war</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.39338234" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.39338234" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.39338234" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.39338234" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>wx_bsbdj</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.39338234" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -1045,18 +1413,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.39338234" />
               </list>
             </option>
           </splitter-proportions>

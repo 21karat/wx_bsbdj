@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="wx_bsbdj" />
+        <module name="wx_common" />
+        <module name="wx_provider" />
+        <module name="wx_web" />
       </profile>
     </annotationProcessing>
   </component>
